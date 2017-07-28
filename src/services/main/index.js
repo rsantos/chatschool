@@ -1,3 +1,5 @@
 module.exports = (req, res) => {
-    res.send('School of net')
+    return res.render('main/index', {
+        title: 'Chatschool - Admin'
+    })
 }
